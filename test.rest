@@ -1,0 +1,13 @@
+### create
+POST http://localhost:9000/api/note/create
+Content-Type: application/json
+
+{
+    "title": "ini title",
+    "content": "ini content",
+    "author": "andiismail"
+}
+
+###read
+GET http://localhost:9000/api/notes/read?page=1&limit=2
+Content-Type: application/json
